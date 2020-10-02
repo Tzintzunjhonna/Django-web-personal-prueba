@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+Portada
+{% endblock  %}
+
+<!--Para no tener problemas poner todo en una sola linea-->
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock  %}
+
+{% block headers %}
+    <h1>Juan Pérez</h1>
+    <span class="subheading">Desarrollador web con Django</span>
+{% endblock  %}
